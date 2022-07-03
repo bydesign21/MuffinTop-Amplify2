@@ -10,6 +10,11 @@
       "StackName": "amplify-muffintopamplify-dev-02550",
       "StackId": "arn:aws:cloudformation:us-east-1:732916412724:stack/amplify-muffintopamplify-dev-02550/9a816a50-fa90-11ec-a94e-124c684a8891",
       "AmplifyAppId": "d2estu4h9cypy9"
+    },
+    "categories": {
+      "auth": {
+        "muffintopamplify6d855843": {}
+      }
     }
   }
 }

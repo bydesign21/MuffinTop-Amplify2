@@ -1,1 +1,36 @@
-{}
+{
+  "auth": {
+    "muffintopamplify6d855843": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL",
+          "PHONE_NUMBER"
+        ],
+        "signupAttributes": [
+          "ADDRESS",
+          "BIRTHDATE",
+          "EMAIL",
+          "GENDER",
+          "NAME",
+          "PHONE_NUMBER"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      }
+    }
+  }
+}
